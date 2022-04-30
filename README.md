@@ -14,8 +14,12 @@ Also we can use dependancy injection on class,method and filed
 
 Spring have annotation library for dependancy injection
 1.@Configuration- Spring contains special class for configuration of source file. @configuration is use on spring configuration class.
+
 2.@Autowired- It's wire all dependancy automatically. @autowired used on field to wire other service functionality into current class.
+
 3.@Component- This annotation define class as a component.
+
 4.@ComponentScan- @ComponentScan tell spring to find annoted components.
+
 5.@service- It's define class as service that can be used into other class using @Autowire annotation.
 
